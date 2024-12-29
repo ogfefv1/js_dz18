@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Прогноз погоды</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="parse" id="parse">
+        <label for="textCity">Название города</label>
+        <input type="text" name="textCity" id="textCity">
+        <button type="button" id="add">Добавить</button>
+    </form>
+    <table id="weather" style="display: none;">
+        <tr>
+            <th>Город</th>
+            <th>Температура</th>
+            <th>Ощущается как</th>
+            <th>Описание</th>
+            <th>Влажность</th>
+            <th>Рассвет</th>
+        </tr>
+    </table>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
